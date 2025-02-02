@@ -25,15 +25,3 @@ body {
     text-wrap: balance;
   }
 }
-
-/* 添加像素风格 */
-.pixel-font {
-  font-family: 'Press Start 2P', monospace;
-  image-rendering: pixelated;
-}
-
-/* 添加节点悬停效果 */
-.node:hover {
-  transform: scale(1.1);
-  transition: transform 0.2s;
-}
